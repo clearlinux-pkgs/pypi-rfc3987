@@ -4,7 +4,7 @@
 #
 Name     : pypi-rfc3987
 Version  : 1.3.8
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/14/bb/f1395c4b62f251a1cb503ff884500ebd248eed593f41b469f89caa3547bd/rfc3987-1.3.8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/14/bb/f1395c4b62f251a1cb503ff884500ebd248eed593f41b469f89caa3547bd/rfc3987-1.3.8.tar.gz
 Summary  : Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)
@@ -14,9 +14,6 @@ Requires: pypi-rfc3987-license = %{version}-%{release}
 Requires: pypi-rfc3987-python = %{version}-%{release}
 Requires: pypi-rfc3987-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: rfc3987
-Provides: rfc3987-python
-Provides: rfc3987-python3
 
 %description
 See http://pypi.python.org/pypi/rfc3987 or the docstrings in rfc3987.py.
@@ -57,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641490692
+export SOURCE_DATE_EPOCH=1651015344
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
